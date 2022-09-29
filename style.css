@@ -1,0 +1,169 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* ---------------------------Index Html File--------------------------- */
+
+/* ----------------------------Nav Bar Start---------------------------- */
+/* .index {
+    background-color: rgb(70, 70, 70);
+} */
+
+
+.logo a:hover {
+    color: red;
+}
+
+/* ------------------------------Sign In Page Start-------------------- */
+/* .sign-body{
+    display: flex;
+    position: relative;
+} */
+.sign-page {
+    background-image: url(img/sign\ in\ 3\ \(2\).jpg);
+    background-position: center;
+}
+
+/* ------------------------------Sign In Page Start-------------------- */
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 10% 0;
+}
+
+.logo a {
+    color: red;
+    text-decoration: none;
+}
+
+.signin-btn {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.signin-btn:hover {
+    background-color: rgb(220, 220, 220);
+    color: rgb(50, 50, 50);
+    transition: 0.8s;
+}
+
+/* ----------------------------Nav Bar END---------------------------- */
+
+
+/* ------------------------------Slider Starts----------------------------- */
+
+.enter-btn {
+    background-color: red;
+    color: white;
+    margin-top: 5%;
+    padding: 9.5px 40px;
+    border: none;
+}
+
+.enter-btn:hover {
+    background-color: rgb(220, 220, 220);
+    color: rgb(50, 50, 50);
+    transition: 0.8s;
+}
+
+/* ------------------------------Slider End----------------------------- */
+
+/* ----------------------------------Accordian Start--------------------------- */
+.accordian-box {
+    background-color: black;
+}
+.accordian-qst {
+    text-align: center;
+    margin-top: 2%;
+}
+.f-enter-btn {
+    background-color: red;
+    color: white;
+    margin-top: 5%;
+    padding: 9.5px 40px;
+    border: none;
+}
+.footer{
+    background-color: black;
+}
+ul{
+    list-style: none;
+}
+.footer-element-1 a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+.footer-element-1 a:hover{
+    text-decoration: underline;
+    color: rgb(100, 100, 100);
+    transition: 0.5;
+}
+.footer-element-2 a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+.footer-element-2 a:hover{
+    text-decoration: underline;
+    color: rgb(100, 100, 100);
+    transition: 0.5s;
+}
+.footer-element-3 a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+.footer-element-3 a:hover{
+    text-decoration: underline;
+    color: rgb(100, 100, 100);
+    transition: 0.5s;
+}
+
+/* ---------------------------------Accordian End--------------------------- */
+
+/* --------------------------------------Cards------------------------------ */
+/* .card-body{
+    text-align: center;
+} */
+p {
+    color: rgb(220, 220, 220);
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: rgb(220, 220, 220);
+}
+
+h5 {
+    color: white;
+}
+
+.container {
+    text-align: center;   
+}
+
+/* --------------------------------- Both File( Dont touch)--------------------- */
+
+@media screen and (max-width: 768px) {
+    .enter-btn {
+        margin-top: 20px;
+    }
+    .sign-in {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        margin: 22% 0;
+    }
+}
